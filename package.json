@@ -1,0 +1,32 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "Hotels website",
+    "main": "server/server.js",
+    "author": "Raptors & Titans",
+    "private": false,
+    "license": "none",
+    "homepage": "",
+    "scripts": {
+      "start": "nodemon server/server.js",
+      "heroku-postbuild": "cd client && npm install && npm run build"
+    },
+    "dependencies": {
+      "axios": "^0.21.0",
+      "bcrypt": "^5.0.0",
+      "cookie-parser": "^1.4.5",
+      "cors": "^2.8.5",
+      "crypto": "^1.0.1",
+      "crypto-js": "^4.0.0",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.10.13",
+      "mongoose-float": "^1.0.4",
+      "path": "^0.12.7",
+      "validator": "^13.1.17"
+    },
+    "engines": {
+      "node": "14.x"
+    }
+  }

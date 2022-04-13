@@ -1,0 +1,153 @@
+/* .menu-item {
+    width: 31vw;
+    height: 240px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 15px 15px 0;
+    margin: 0 15px 15px 0;
+    overflow: hidden;
+    
+} */
+   /* .menu-item:hover {
+    cursor: pointer;
+    } */
+ /* .background-image {
+   transform: scale(1.1);
+   transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      } */
+      /* .kualalumpur{
+        width: 31vw;
+        height: 250px;
+        background-image: url('https://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/pagePropertiesOgImage/kuala-lumpur.jpg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid black;
+        margin: 0 15px 15px 0;
+    }
+    .singapore{
+      width: 31vw;
+      height: 250px;
+      background-image: url('https://i.pinimg.com/originals/51/9b/f5/519bf5f2b0ab2cbe84797f8b309baa16.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border: 1px solid black;
+      margin: 0 15px 15px 22px;
+  }
+  .losAngeles{
+    width: 31vw;
+    height: 250px;
+    background-image: url('https://i.ytimg.com/vi/tvDH4JM_gME/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    margin: 0 15px 15px 0;
+}
+.rome{
+  width: 23vw;
+  height: 250px;
+  background-image: url('https://cdn.citywonders.com/media/17764/rome-city.jpg?anchor=center&mode=crop&width=1200&height=600');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  margin: 0 15px 15px 22px;
+}
+.paris{
+  width: 47vw;
+  height: 250px;
+  background-image: url('https://cdn.pubble.io/resources/web/pubble/img/city_paris.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  margin: 0 15px 15px 0;
+}
+.Barcelona{
+  width: 23vw;
+  height: 250px;
+  background-image: url('https://www.jetsetter.com/wp-content/uploads/sites/7/2018/04/Zrlvh0hw-1380x690.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  margin: 0 15px 15px 0;
+  
+} */
+
+
+.card {
+  margin: 30px auto;
+  width: 400px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -40px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/

@@ -1,0 +1,81 @@
+.img{
+    border-radius: 4px;
+    padding: 5px;
+    width: 240px;
+    height: 140px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.body{
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: black;
+    width: 80vw;
+    height: 25vh;
+    border-radius: 15px;
+}
+.body:hover{
+    background-color: pink;
+}
+
+.first_img{
+    float :left;
+}
+
+.center{
+    flex : .40;
+    margin-left: 250px;
+}
+
+.center-second{
+    padding-bottom:.9rem ;
+    padding-left:.2rem;
+}
+
+.facility{
+    font-size: 13px;
+    padding-left:1rem;
+}
+
+.citysize{
+    font-size:12px;
+}
+
+.third_component{
+    flex : .30;
+    margin: auto;
+    float:right;
+}
+
+.thirdcom_firstone{
+    display: flex;
+    flex: .5;
+    justify-content: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    position: relative;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.third_component_secondline{
+    display: flex;
+    flex: .5;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.third_component_thirdline{
+    display: flex;
+    flex: .5;
+    justify-content: center;
+}
+
+.dollers{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,24 @@
+.text{
+    color: black;
+    /* text-align: center; */
+  }
+  .Account{
+   padding: 1px;
+  }
+  * {
+    box-sizing: border-box;
+    
+  }
+  
+  .form{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  }
+  .search{
+    align-self: flex-end;
+    padding: .6rem;
+  }
+  .two-comp{
+      margin-bottom:30px ;
+  }

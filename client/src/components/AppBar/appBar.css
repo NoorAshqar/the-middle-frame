@@ -1,0 +1,41 @@
+.toolBar{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .typography{
+    flex : 1 ; 
+  }
+  .mys{
+    color: white;
+    margin-left: 10px;
+  }
+
+  .center {
+      display: flex;
+      justify-content: center;
+  }
+
+  .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.user-sign{
+  /* margin-top: 15px; */
+  border-radius: 36px;
+  background: #FEE996;
+  border:0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  display: block;
+  padding: 10px 16px;
+  letter-spacing: 2px;
+}
